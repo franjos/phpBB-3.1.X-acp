@@ -1,0 +1,71 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka A.Karlović - <https://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'ACP_FILES'						=> 'Administracija jezičnih datoteka foruma',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Ovdje ste u mogućnosti instalirati / ukloniti jezične pakete. Zadani jezik označen je zvjezdicom (*).',
+
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Jeste li sigurni da želite ukloniti “%s”?',
+
+	'INSTALLED_LANGUAGE_PACKS'		=> 'Instalirani jezični paketi',
+
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Pojedinosti jezičnog paketa su uspješno ažurirani.',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ovaj jezični paket je već instaliran',
+	'LANGUAGE_PACK_DELETED'				=> 'Jezični paket “%s” je uspješno uklonjen. Svi korisnici foruma koji su koristili ovaj deinstaliran paket bit će vraćeni na zadani jezik foruma.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Detalji jezičnog paketa',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Jezični paket “%s” je uspješno instaliran.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Pojedinosti profila jezičnih postavki kopirane su sa zadanog jezika. Mijenjajte ih po potrebi.',
+	'LANGUAGE_PACK_ISO'					=> 'ISO',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalno ime',
+	'LANGUAGE_PACK_NAME'				=> 'Ime',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'Označena jezična datoteka ne postoji.',
+	'LANGUAGE_PACK_USED_BY'				=> 'Forum korištenje (uključujući i robote)',
+	'LANGUAGE_VARIABLE'					=> 'Varijabla jezika',
+	'LANG_AUTHOR'						=> 'Auror jezika',
+	'LANG_ENGLISH_NAME'					=> 'Englesko ime',
+	'LANG_ISO_CODE'						=> 'ISO kod',
+	'LANG_LOCAL_NAME'					=> 'Lokalni naziv',
+
+	'MISSING_LANG_FILES'		=> 'Nedostaje jezična datoteka',
+	'MISSING_LANG_VARIABLES'	=> 'Nedostaje jezična varijabla',
+
+	'NO_FILE_SELECTED'				=> 'Niste naveli jezične datoteke.',
+	'NO_LANG_ID'					=> 'Niste naveli jezični paket.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Ne možete deinstalirati jezični paket.<br />Želite li ga ipak ukloniti, promjenite prethodno ostavke o zadanom jezičnom paketu.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Neinstalirani jezični paketi',
+
+	'THOSE_MISSING_LANG_FILES'			=> 'Sljedeće jezične datoteke nedostaju u “%s” mapi jezika',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Sljedeće jezične varijable nedostaju u “%s” jezičnom paketu',
+
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Neinstalirani jezični paketi',
+));
